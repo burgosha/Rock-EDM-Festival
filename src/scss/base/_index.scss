@@ -1,0 +1,4 @@
+@forward 'variables'; //Se definen primero, es lo primero a ser cargado
+@forward 'mixins';
+@forward 'normalize'; //Luego se incorpora Normalize
+@forward 'globales'; //En tercer lugar siempre los globales, el orden es importante
